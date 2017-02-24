@@ -28,7 +28,7 @@ class RequestsHttpConnection(Connection):
         certificate
     """
 
-    def __init__(self, host='localhost', port=8047, http_auth=None,
+    def __init__(self, host='localhost', port=8047, http_auth=None, drill_auth=None,
                  use_ssl=False, verify_certs=False, ca_certs=None, client_cert=None,
                  **kwargs):
         if not REQUESTS_AVAILABLE:
