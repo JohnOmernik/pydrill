@@ -68,7 +68,6 @@ class RequestsHttpConnection(Connection):
             timeout = self.timeout
 
         login = {'j_username': self.drill_user, 'j_password': self.drill_pass}
-        print(login)
         method = 'POST'
         body = "Auth Request not shown for security"
 
